@@ -8,6 +8,6 @@ class CDController {
 
     @GetMapping(path = "/")
     public String hello() {
-        return "Hello to everybody";
+        return "Hello to everybody. It's a lovely day";
     }
 }

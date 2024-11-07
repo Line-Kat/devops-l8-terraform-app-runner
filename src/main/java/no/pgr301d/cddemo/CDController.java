@@ -8,6 +8,6 @@ class CDController {
 
     @GetMapping(path = "/")
     public String hello() {
-        return "Hello to everybody. It's a lovely day";
+        return "Hello to everybody. It's a lovely day. Can I see this from App Runner in AWS now?";
     }
 }
